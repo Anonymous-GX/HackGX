@@ -19,7 +19,7 @@ echo -e $red   "╠═╣├─┘├┴┐  │ ┬├┤ │││├┤ ├�
 sleep 0.2s
 echo -e $green "╩ ╩┴  ┴ ┴  └─┘└─┘┘└┘└─┘┴└─┴ ┴ ┴ └─┘┴└─  "
 sleep 0.2s
-echo -e "  $red Developer : $green MEDO $red GX "
+echo -e "  $red Developer : $green Anonymous $red GX "
 sleep 0.2s
 echo ''
 sleep 0.2s
@@ -68,6 +68,7 @@ function prompt_install_metasploit() {
             ;;
         n|N )
             echo -e "$red [!] Installation aborted."
+            exit
             ;;
         * )
             echo -e "$red [!] Invalid choice. Please enter y or n."
