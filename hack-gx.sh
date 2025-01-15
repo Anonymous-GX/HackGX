@@ -102,6 +102,12 @@ sleep 0.2s
 echo ''
 echo ''
 sleep 0.2s
+echo "please open ngrok on tcp 4444 port "
+sleep 0.2s
+echo ''
+echo "please run ' ngrok tcp 4444 ' to don't have any errors " 
+sleep 0.2s
+echo ""
 read -p 'please Enter your host : ' ip 
 sleep 0.2s
 read -p 'please Enter your ngrok ip or host : ' ngip
